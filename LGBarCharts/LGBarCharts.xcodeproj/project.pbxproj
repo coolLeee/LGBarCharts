@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		598CDC9ED4D26B92B2A5DED4 /* Pods_LGBarChartsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FB9FE27006728F9A635BC8 /* Pods_LGBarChartsTests.framework */; };
+		D5E427B0489EC58DF4D19975 /* Pods_LGBarCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED1657FCBD3B589402AFD78 /* Pods_LGBarCharts.framework */; };
+		D6678DC51F1379E40099A47B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6678DC41F1379E40099A47B /* main.m */; };
+		D6678DC81F1379E40099A47B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6678DC71F1379E40099A47B /* AppDelegate.m */; };
+		D6678DCE1F1379E40099A47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6678DCC1F1379E40099A47B /* Main.storyboard */; };
+		D6678DD01F1379E40099A47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6678DCF1F1379E40099A47B /* Assets.xcassets */; };
+		D6678DD31F1379E40099A47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6678DD11F1379E40099A47B /* LaunchScreen.storyboard */; };
+		D6678DDE1F1379E40099A47B /* LGBarChartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6678DDD1F1379E40099A47B /* LGBarChartsTests.m */; };
+		D6678DE91F1379E40099A47B /* LGBarChartsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6678DE81F1379E40099A47B /* LGBarChartsUITests.m */; };
+		D6678DFE1F137DC10099A47B /* UIColor+KFColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6678DFD1F137DC10099A47B /* UIColor+KFColorHelper.m */; };
+		D6678E031F137EB40099A47B /* BarChartsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6678E011F137EB40099A47B /* BarChartsHelper.m */; };
+		D6678E071F137F2D0099A47B /* LGDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6678E051F137F2D0099A47B /* LGDemoViewController.m */; };
+		D6678E0B1F1383ED0099A47B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6678E0A1F1383ED0099A47B /* ViewController.m */; };
+		F9C0FFE819D4404EDB0C3A71 /* Pods_LGBarChartsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AFF0A582AE9050B75B0B13 /* Pods_LGBarChartsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6678DDA1F1379E40099A47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6678DB81F1379E40099A47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6678DBF1F1379E40099A47B;
+			remoteInfo = LGBarCharts;
+		};
+		D6678DE51F1379E40099A47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6678DB81F1379E40099A47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6678DBF1F1379E40099A47B;
+			remoteInfo = LGBarCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A90DEA77E641FD983376EEC /* Pods-LGBarChartsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBarChartsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBarChartsTests/Pods-LGBarChartsTests.release.xcconfig"; sourceTree = "<group>"; };
+		44AFF0A582AE9050B75B0B13 /* Pods_LGBarChartsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBarChartsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B73DD180AC3BFCBA26B10BC /* Pods-LGBarCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBarCharts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBarCharts/Pods-LGBarCharts.debug.xcconfig"; sourceTree = "<group>"; };
+		67FB9FE27006728F9A635BC8 /* Pods_LGBarChartsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBarChartsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		964D2D7C50826FE2B754DA5E /* Pods-LGBarCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBarCharts.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBarCharts/Pods-LGBarCharts.release.xcconfig"; sourceTree = "<group>"; };
+		9ED1657FCBD3B589402AFD78 /* Pods_LGBarCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBarCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD444F6C3604627E955ED4C /* Pods-LGBarChartsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBarChartsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBarChartsUITests/Pods-LGBarChartsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9237BCFAB8A00EE07898344 /* Pods-LGBarChartsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBarChartsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBarChartsUITests/Pods-LGBarChartsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6678DC01F1379E40099A47B /* LGBarCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGBarCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6678DC41F1379E40099A47B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6678DC61F1379E40099A47B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6678DC71F1379E40099A47B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6678DCD1F1379E40099A47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6678DCF1F1379E40099A47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6678DD21F1379E40099A47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6678DD41F1379E40099A47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6678DD91F1379E40099A47B /* LGBarChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGBarChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6678DDD1F1379E40099A47B /* LGBarChartsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBarChartsTests.m; sourceTree = "<group>"; };
+		D6678DDF1F1379E40099A47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6678DE41F1379E40099A47B /* LGBarChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGBarChartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6678DE81F1379E40099A47B /* LGBarChartsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBarChartsUITests.m; sourceTree = "<group>"; };
+		D6678DEA1F1379E40099A47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6678DF91F137D540099A47B /* LGBarCharts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LGBarCharts-Bridging-Header.h"; sourceTree = "<group>"; };
+		D6678DFC1F137DC10099A47B /* UIColor+KFColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KFColorHelper.h"; sourceTree = "<group>"; };
+		D6678DFD1F137DC10099A47B /* UIColor+KFColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KFColorHelper.m"; sourceTree = "<group>"; };
+		D6678E001F137EB40099A47B /* BarChartsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChartsHelper.h; sourceTree = "<group>"; };
+		D6678E011F137EB40099A47B /* BarChartsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChartsHelper.m; sourceTree = "<group>"; };
+		D6678E041F137F2D0099A47B /* LGDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDemoViewController.h; sourceTree = "<group>"; };
+		D6678E051F137F2D0099A47B /* LGDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDemoViewController.m; sourceTree = "<group>"; };
+		D6678E091F1383ED0099A47B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6678E0A1F1383ED0099A47B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC55F3A1481C2059F2164CB9 /* Pods-LGBarChartsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBarChartsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBarChartsTests/Pods-LGBarChartsTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6678DBD1F1379E40099A47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E427B0489EC58DF4D19975 /* Pods_LGBarCharts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6678DD61F1379E40099A47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598CDC9ED4D26B92B2A5DED4 /* Pods_LGBarChartsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6678DE11F1379E40099A47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C0FFE819D4404EDB0C3A71 /* Pods_LGBarChartsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9908ED738D6E6DAFC98A8592 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B73DD180AC3BFCBA26B10BC /* Pods-LGBarCharts.debug.xcconfig */,
+				964D2D7C50826FE2B754DA5E /* Pods-LGBarCharts.release.xcconfig */,
+				EC55F3A1481C2059F2164CB9 /* Pods-LGBarChartsTests.debug.xcconfig */,
+				3A90DEA77E641FD983376EEC /* Pods-LGBarChartsTests.release.xcconfig */,
+				BCD444F6C3604627E955ED4C /* Pods-LGBarChartsUITests.debug.xcconfig */,
+				C9237BCFAB8A00EE07898344 /* Pods-LGBarChartsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3E873CA88710AA5471920F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ED1657FCBD3B589402AFD78 /* Pods_LGBarCharts.framework */,
+				67FB9FE27006728F9A635BC8 /* Pods_LGBarChartsTests.framework */,
+				44AFF0A582AE9050B75B0B13 /* Pods_LGBarChartsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6678DB71F1379E40099A47B = {
+			isa = PBXGroup;
+			children = (
+				D6678DC21F1379E40099A47B /* LGBarCharts */,
+				D6678DDC1F1379E40099A47B /* LGBarChartsTests */,
+				D6678DE71F1379E40099A47B /* LGBarChartsUITests */,
+				D6678DC11F1379E40099A47B /* Products */,
+				9908ED738D6E6DAFC98A8592 /* Pods */,
+				D3E873CA88710AA5471920F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6678DC11F1379E40099A47B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6678DC01F1379E40099A47B /* LGBarCharts.app */,
+				D6678DD91F1379E40099A47B /* LGBarChartsTests.xctest */,
+				D6678DE41F1379E40099A47B /* LGBarChartsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6678DC21F1379E40099A47B /* LGBarCharts */ = {
+			isa = PBXGroup;
+			children = (
+				D6678DFF1F137EB40099A47B /* BarChartsHelper */,
+				D6678E021F137EB40099A47B /* DEMO */,
+				D6678DC61F1379E40099A47B /* AppDelegate.h */,
+				D6678DC71F1379E40099A47B /* AppDelegate.m */,
+				D6678E091F1383ED0099A47B /* ViewController.h */,
+				D6678E0A1F1383ED0099A47B /* ViewController.m */,
+				D6678DCC1F1379E40099A47B /* Main.storyboard */,
+				D6678DCF1F1379E40099A47B /* Assets.xcassets */,
+				D6678DD11F1379E40099A47B /* LaunchScreen.storyboard */,
+				D6678DD41F1379E40099A47B /* Info.plist */,
+				D6678DC31F1379E40099A47B /* Supporting Files */,
+				D6678DF91F137D540099A47B /* LGBarCharts-Bridging-Header.h */,
+			);
+			path = LGBarCharts;
+			sourceTree = "<group>";
+		};
+		D6678DC31F1379E40099A47B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6678DFC1F137DC10099A47B /* UIColor+KFColorHelper.h */,
+				D6678DFD1F137DC10099A47B /* UIColor+KFColorHelper.m */,
+				D6678DC41F1379E40099A47B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6678DDC1F1379E40099A47B /* LGBarChartsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6678DDD1F1379E40099A47B /* LGBarChartsTests.m */,
+				D6678DDF1F1379E40099A47B /* Info.plist */,
+			);
+			path = LGBarChartsTests;
+			sourceTree = "<group>";
+		};
+		D6678DE71F1379E40099A47B /* LGBarChartsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6678DE81F1379E40099A47B /* LGBarChartsUITests.m */,
+				D6678DEA1F1379E40099A47B /* Info.plist */,
+			);
+			path = LGBarChartsUITests;
+			sourceTree = "<group>";
+		};
+		D6678DFF1F137EB40099A47B /* BarChartsHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D6678E001F137EB40099A47B /* BarChartsHelper.h */,
+				D6678E011F137EB40099A47B /* BarChartsHelper.m */,
+			);
+			path = BarChartsHelper;
+			sourceTree = "<group>";
+		};
+		D6678E021F137EB40099A47B /* DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				D6678E041F137F2D0099A47B /* LGDemoViewController.h */,
+				D6678E051F137F2D0099A47B /* LGDemoViewController.m */,
+			);
+			path = DEMO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6678DBF1F1379E40099A47B /* LGBarCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6678DED1F1379E40099A47B /* Build configuration list for PBXNativeTarget "LGBarCharts" */;
+			buildPhases = (
+				75B881E3C83197397CDA8F95 /* 📦 Check Pods Manifest.lock */,
+				D6678DBC1F1379E40099A47B /* Sources */,
+				D6678DBD1F1379E40099A47B /* Frameworks */,
+				D6678DBE1F1379E40099A47B /* Resources */,
+				208811D86023C93CB253D3A1 /* 📦 Embed Pods Frameworks */,
+				22E539643C0EDA80AD37CD33 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGBarCharts;
+			productName = LGBarCharts;
+			productReference = D6678DC01F1379E40099A47B /* LGBarCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6678DD81F1379E40099A47B /* LGBarChartsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6678DF01F1379E40099A47B /* Build configuration list for PBXNativeTarget "LGBarChartsTests" */;
+			buildPhases = (
+				CCA9B19F2980E34B475E0C8A /* 📦 Check Pods Manifest.lock */,
+				D6678DD51F1379E40099A47B /* Sources */,
+				D6678DD61F1379E40099A47B /* Frameworks */,
+				D6678DD71F1379E40099A47B /* Resources */,
+				5D817DE3972F12C1093FC512 /* 📦 Embed Pods Frameworks */,
+				B2AE393ED25BAED5F3391723 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6678DDB1F1379E40099A47B /* PBXTargetDependency */,
+			);
+			name = LGBarChartsTests;
+			productName = LGBarChartsTests;
+			productReference = D6678DD91F1379E40099A47B /* LGBarChartsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6678DE31F1379E40099A47B /* LGBarChartsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6678DF31F1379E40099A47B /* Build configuration list for PBXNativeTarget "LGBarChartsUITests" */;
+			buildPhases = (
+				780ADABBE639201492501959 /* 📦 Check Pods Manifest.lock */,
+				D6678DE01F1379E40099A47B /* Sources */,
+				D6678DE11F1379E40099A47B /* Frameworks */,
+				D6678DE21F1379E40099A47B /* Resources */,
+				FFC7651419D0B1AB0998621C /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6678DE61F1379E40099A47B /* PBXTargetDependency */,
+			);
+			name = LGBarChartsUITests;
+			productName = LGBarChartsUITests;
+			productReference = D6678DE41F1379E40099A47B /* LGBarChartsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6678DB81F1379E40099A47B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LG;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BeijingKaiFengData;
+				TargetAttributes = {
+					D6678DBF1F1379E40099A47B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BUMERH7UWU;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					D6678DD81F1379E40099A47B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BUMERH7UWU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6678DBF1F1379E40099A47B;
+					};
+					D6678DE31F1379E40099A47B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BUMERH7UWU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6678DBF1F1379E40099A47B;
+					};
+				};
+			};
+			buildConfigurationList = D6678DBB1F1379E40099A47B /* Build configuration list for PBXProject "LGBarCharts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6678DB71F1379E40099A47B;
+			productRefGroup = D6678DC11F1379E40099A47B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6678DBF1F1379E40099A47B /* LGBarCharts */,
+				D6678DD81F1379E40099A47B /* LGBarChartsTests */,
+				D6678DE31F1379E40099A47B /* LGBarChartsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6678DBE1F1379E40099A47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6678DD31F1379E40099A47B /* LaunchScreen.storyboard in Resources */,
+				D6678DD01F1379E40099A47B /* Assets.xcassets in Resources */,
+				D6678DCE1F1379E40099A47B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6678DD71F1379E40099A47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6678DE21F1379E40099A47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		208811D86023C93CB253D3A1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBarCharts/Pods-LGBarCharts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22E539643C0EDA80AD37CD33 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBarCharts/Pods-LGBarCharts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D817DE3972F12C1093FC512 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBarChartsTests/Pods-LGBarChartsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75B881E3C83197397CDA8F95 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		780ADABBE639201492501959 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2AE393ED25BAED5F3391723 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBarChartsTests/Pods-LGBarChartsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA9B19F2980E34B475E0C8A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFC7651419D0B1AB0998621C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBarChartsUITests/Pods-LGBarChartsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6678DBC1F1379E40099A47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6678E0B1F1383ED0099A47B /* ViewController.m in Sources */,
+				D6678E031F137EB40099A47B /* BarChartsHelper.m in Sources */,
+				D6678E071F137F2D0099A47B /* LGDemoViewController.m in Sources */,
+				D6678DC81F1379E40099A47B /* AppDelegate.m in Sources */,
+				D6678DFE1F137DC10099A47B /* UIColor+KFColorHelper.m in Sources */,
+				D6678DC51F1379E40099A47B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6678DD51F1379E40099A47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6678DDE1F1379E40099A47B /* LGBarChartsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6678DE01F1379E40099A47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6678DE91F1379E40099A47B /* LGBarChartsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6678DDB1F1379E40099A47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6678DBF1F1379E40099A47B /* LGBarCharts */;
+			targetProxy = D6678DDA1F1379E40099A47B /* PBXContainerItemProxy */;
+		};
+		D6678DE61F1379E40099A47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6678DBF1F1379E40099A47B /* LGBarCharts */;
+			targetProxy = D6678DE51F1379E40099A47B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6678DCC1F1379E40099A47B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6678DCD1F1379E40099A47B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6678DD11F1379E40099A47B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6678DD21F1379E40099A47B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6678DEB1F1379E40099A47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6678DEC1F1379E40099A47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6678DEE1F1379E40099A47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B73DD180AC3BFCBA26B10BC /* Pods-LGBarCharts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = BUMERH7UWU;
+				INFOPLIST_FILE = LGBarCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaiFeng.LGBarCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LGBarCharts/LGBarCharts-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D6678DEF1F1379E40099A47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 964D2D7C50826FE2B754DA5E /* Pods-LGBarCharts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = BUMERH7UWU;
+				INFOPLIST_FILE = LGBarCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaiFeng.LGBarCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LGBarCharts/LGBarCharts-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D6678DF11F1379E40099A47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC55F3A1481C2059F2164CB9 /* Pods-LGBarChartsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BUMERH7UWU;
+				INFOPLIST_FILE = LGBarChartsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaiFeng.LGBarChartsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGBarCharts.app/LGBarCharts";
+			};
+			name = Debug;
+		};
+		D6678DF21F1379E40099A47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A90DEA77E641FD983376EEC /* Pods-LGBarChartsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BUMERH7UWU;
+				INFOPLIST_FILE = LGBarChartsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaiFeng.LGBarChartsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGBarCharts.app/LGBarCharts";
+			};
+			name = Release;
+		};
+		D6678DF41F1379E40099A47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD444F6C3604627E955ED4C /* Pods-LGBarChartsUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BUMERH7UWU;
+				INFOPLIST_FILE = LGBarChartsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaiFeng.LGBarChartsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGBarCharts;
+			};
+			name = Debug;
+		};
+		D6678DF51F1379E40099A47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9237BCFAB8A00EE07898344 /* Pods-LGBarChartsUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BUMERH7UWU;
+				INFOPLIST_FILE = LGBarChartsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaiFeng.LGBarChartsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGBarCharts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6678DBB1F1379E40099A47B /* Build configuration list for PBXProject "LGBarCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6678DEB1F1379E40099A47B /* Debug */,
+				D6678DEC1F1379E40099A47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6678DED1F1379E40099A47B /* Build configuration list for PBXNativeTarget "LGBarCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6678DEE1F1379E40099A47B /* Debug */,
+				D6678DEF1F1379E40099A47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6678DF01F1379E40099A47B /* Build configuration list for PBXNativeTarget "LGBarChartsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6678DF11F1379E40099A47B /* Debug */,
+				D6678DF21F1379E40099A47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6678DF31F1379E40099A47B /* Build configuration list for PBXNativeTarget "LGBarChartsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6678DF41F1379E40099A47B /* Debug */,
+				D6678DF51F1379E40099A47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6678DB81F1379E40099A47B /* Project object */;
+}
