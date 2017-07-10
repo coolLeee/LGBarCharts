@@ -162,7 +162,6 @@
 				D6678DD11F1379E40099A47B /* LaunchScreen.storyboard */,
 				D6678DD41F1379E40099A47B /* Info.plist */,
 				D6678DC31F1379E40099A47B /* Supporting Files */,
-				D6678DF91F137D540099A47B /* LGBarCharts-Bridging-Header.h */,
 			);
 			path = LGBarCharts;
 			sourceTree = "<group>";
@@ -172,6 +171,7 @@
 			children = (
 				D6678DFC1F137DC10099A47B /* UIColor+KFColorHelper.h */,
 				D6678DFD1F137DC10099A47B /* UIColor+KFColorHelper.m */,
+				D6678DF91F137D540099A47B /* LGBarCharts-Bridging-Header.h */,
 				D6678DC41F1379E40099A47B /* main.m */,
 			);
 			name = "Supporting Files";
