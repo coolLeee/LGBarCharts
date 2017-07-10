@@ -7,4 +7,4 @@
  ![image](https://github.com/coolLeee/LGBarCharts/raw/master/images_web/单柱和折线.png)
 双柱和折线：最简单的样式实现
  ![image](https://github.com/coolLeee/LGBarCharts/raw/master/images_web/双柱和折线.png) 
- 具体实现请参考demo实现。
+ 具体实现请参考demo实现。如有疑问，欢迎一起探讨  QQ：524372187
